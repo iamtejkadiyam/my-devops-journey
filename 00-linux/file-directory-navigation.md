@@ -35,7 +35,7 @@ Examples:
 cd /var/log
 cd /etc/nginx
 
----
+-----
 
 ### DevOps Usage
 - Navigating servers
