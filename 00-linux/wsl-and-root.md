@@ -1,6 +1,32 @@
 ## WSL and Root Access
 
-- wsl -u root
-- wsl -d Ubuntu -u root
+Used when working with Linux via Windows Subsystem for Linux (WSL).
 
-Used to directly access root shell in WSL environments.
+### wsl -u root
+Starts WSL as root user.
+
+Example:
+wsl -u root
+
+---
+
+### sudo -i
+Switches to root shell.
+
+Example:
+sudo -i
+
+---
+
+### su -i
+Switches user identity.
+
+Example:
+su -i
+
+---
+
+### DevOps Usage
+- Admin-level troubleshooting
+- Installing system packages
+- Managing system configurations
